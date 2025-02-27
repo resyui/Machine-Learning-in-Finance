@@ -95,7 +95,6 @@ model.fit(X_train, y_train)
 print("Coefficient (slope):", model.coef_[0])
 print("Intercept:", model.intercept_)
 
-
 # Interpretation:
 # Coefficient (slope): Tells how much the Adjusted Close price is expected to change for a 1-unit change in the 10-day EMA.
 # Intercept: The predicted Adjusted Close when EMA = 0 (not necessarily meaningful but it’s part of the linear formula).
